@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emotional Support Sessions</title>
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  
+  <meta property="og:title" content="Al-hoda sessions for emotional support">
+  <meta property="og:description" content="Choose a sessions">
+  <meta property="og:image" content="https://your-image-link.jpg">
+  <meta property="og:url" content="https://al-hoda-sessions.com">
+  <meta property="og:type" content="website">
+  
+</head>
+
+<body>
+
+  
+  <div class="container">
+    <div class="card">
+      <h1 id="title"
+  data-ar="جلسات الهُدى لدعم النفسي"
+  data-en="Al-hoda sessions for psychological support">
+        
+      </h1>
+      <p id="prog"
+      data-ar="هنا مكان للفضفضة والراحة والدعم، ندردش مع بعض بكل ود، بس أكيد هالمكان ما يغني عن استشارة طبيب أو مختص نفسي."
+      data-en="This is a supportive space for emotional comfort and friendly conversation. It is not a substitute for professional psychological help." 
+        >
+      </p>
+      <hr>
+    </div>
+  </div>
+  <!--اختيار اللغة-->
+  <div class="navbar">
+  <span class="logo">Al-hoda</span>
+
+  <div class="lang-switch">
+    <button onclick="setLanguage('ar')">AR</button>
+    <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </div>
+  
+  
+  <button onclick="setLanguage('ar')">🇸🇦 عربي</button>
+  <button onclick="setLanguage('en')">🇺🇸 English</button>
+  
+  <div id="popup" class="popup">
+  <div class="popup-content">
+    
+    <span class="close-btn">&times;</span>
+    <h2 id="popup-title">Session</h2>
+    <p id="popup-text">Text here...</p>
+    
+    <p id="popup-duration"></p>
+    <p id="popup-price"></p>
+    
+  
+    
+    <textarea 
+    id="userMessage"
+    placeholder="Write what you feel..."
+    data-ar="اكتب شو حاسس..."
+    data-en="Write what you feel..."></textarea>
+    
+    
+    
+    <p id="prog"
+    data-ar="30دقيقة-$5 "
+    data-en="30 min session - $5"
+    ></p>
+    
+
+  <!--<button>Continue to WhatsApp</button>-->
+  <button onclick="sendToWhatsApp()"
+  id="title"
+  data-ar="تدردش ع واتس اب "
+  data-en="Continue to WhatsApp"
+  ></button>
+  </a>
+    </div>
+  </div>
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" width="100%" max-height="200">
+  <hr>
+  <!--77777777777-->
+  <div class="container">
+    <div class="card">
+      <img src="./Images1/relax1.jpeg" alt="Relax Session">
+      <div class="card-content">
+        <h3 id="title"
+        data-ar="روق بالك🌿"
+        data-en="🌿 Relax Sessi"
+        ></h3>
+      <p id="prog"
+      data-ar="دردشة هادية تساعدك تروّق وتآخد نَفَس عميق."
+      data-en="A calm conversation to help you relax and breathe."></p>
+      <div class="info">
+        <span>⏱ 30 min</span>
+        <span>💰 $5</span>
+      </div>
+      <button data-session="relax"
+      id="prog"
+      data-ar="أبدا"
+      data-en="Start"
+      ></button>
+      </div>
+    </div>
+  </div>
+  <!--77777777777-->
+  <hr>
+  <div class="container">
+    <!-- كل الكرت هون -->
+    <div class="card">
+      <img src="./Images1/friend.jpeg" alt="Relax Session">
+      <div class="card-content">
+        <h3 id="title"
+        data-ar="رفيق متفهم 🤝"
+        data-en="🤝 Understanding Friend"
+        ></h3>
+        <p id="prog"
+        data-ar="انا هو عشان اسمعك.."
+        data-en="I'm here to listen..."
+        ></p>
+        <div class="info">
+          <span>⏱ 30 min</span>
+          <span>💰 $5</span>
+        </div>
+        <button data-session="friend"
+        id="prog"
+        data-ar="إبدا"
+        data-en="Start"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- كل الكرت هون -->
+    <div class="card">
+      <img src="./Images1/alone.jpeg" alt="Relax Session">
+      <div class="card-content">
+        <h3 id="title"
+        data-ar="إنت مو لحالك🧡"
+        data-en="💛 You’re Not Alone"
+        > </h3>
+        <p id="prog"
+        data-ar="إنت مو لحالك.. أنا معك وجنبك."
+        data-en="You are not alone... I'm here with you."
+        ></p>
+        <div class="info">
+          <span>⏱ 30 min</span>
+          <span>💰 $5</span>
+        </div>
+        <button data-session="alone"
+        id="prog"
+        data-ar="إبدا"
+        data-en="Start"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- كل الكرت هون -->
+    <div class="card">
+      <img src="./Images1/calm.jpeg" alt="Relax Session">
+      <div class="card-content">
+        <h3 id=""
+        data-ar="هداوة بال.. نصيحه وكلام يفيدك."
+        data-en="🧘 Calm & Advice"
+        > </h3>
+        <p id="prog"
+        data-ar="روق وخذ نفس واحكيلي شو إلى شاغل بالك"
+        data-en="Relax, take a breath, and tell me what's on your mind"
+        ></p>
+        <div class="info">
+          <span>⏱ 30 min</span>
+          <span>💰 $5</span>
+        </div>
+        <button data-session="calm"
+        id="prog"
+        data-ar="إبدا"
+        data-en="Start"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- كل الكرت هون -->
+    <div class="card">
+      <p id="prog"
+      data-ar="فضفضة رايقة، عشان ترتاح وتصفّي بالك."
+      data-en="A calm conversation to help you relax and breathe."></p>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- كل الكرت هون -->
+    <div class="card">
+      <img src="./Images1/calm1.jpeg" alt="Relax Session">
+      <div class="card relax">
+        <h3 id="title"
+        data-ar="🌿 نانا - قعدة رايقة"
+        data-en="🌿 Nana - Calm Session"
+        ></h3>
+        <p id="prog"
+        data-ar="تطمن، أنت بمكان آمن.. ارتاح وخُذ نَفَس.. انت مو وحدك."
+        data-en="You are safe here. Take a breath. You are not alone."
+        ></p>
+        <div class="info">
+          <span>⏱ 30 min</span>
+          <span>💰 $5</span>
+        </div>
+        <button onclick="startSession('nana')" data-session="nana"
+        id="prog"
+        data-ar="إبدا"
+        data-en="Start"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- كل الكرت هون -->
+    <div class="card">
+      <img src="./Images1/calm2.jpeg" alt="Relax Session">
+      <div class="card friend">
+        <h3 id="title"
+        data-ar="🌸 هيا - الصديقة اللي تفهمكي"
+        data-en="🌸 Haya - Understanding Friendbr"></h3>
+        <p id="prog"
+        data-ar="أنا هنا عشان أسمعك.. خد راحتك وفضفض بكل حرية"
+        data-en="I’m here to listen. You can talk freely."
+        ></p>
+        <div class="info">
+          <span>⏱ 30 min</span>
+          <span>💰 $5</span>
+        </div>
+        <button onclick="startSession('haya')" data-session="haya"
+        id="prog"
+        data-ar="إبدا"
+        data-en="Start"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="card">
+      <img src="./Images1/calm3.jpeg" alt="Relax Session">
+      <div class="card support">
+        <h3 id="title"
+        data-ar="🤝 هادي - جنبك وسندك"
+        data-en="🤝 Hadi - Support & Strength"
+        ></h3>
+        <p id="prog"
+        data-ar="تقدر تتخطى هاللحظة، مثل ما تخطيت غيرها.. خلنا نحكي  سوا"
+        data-en="You are stronger than you think. Let’s keep going together."
+        ></p>
+        <div class="info">
+          <span>⏱ 30 min</span>
+          <span>💰 $5</span>
+        </div>
+        <button onclick="startSession('hadi')" data-session="hadi"
+        id="prog"
+        data-ar=" إبدا"
+        data-en="Start"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="popup-info">
+    <span id="popup-duration"></span>
+    <span id="popup-price"></span>
+  </div>
+  <a href="https://wa.me/9627xxxxxxxx" target="_blank" class="whatsapp-btn"
+  id="title"
+  data-ar="دردش ع الواتس أب💬"
+  data-en="💬 Chat on WhatsApp"
+  >
+  </a>
+  <div class="header">
+    Emotional Support 💚
+    </div>
+  <h2 id="whatsappmassege"
+  data-ar="💬 احجز جلسة خلال أقل من دقيقة عبر واتساب"
+  data-en="Book a session in less than a minute via WhatsApp"
+  ></h2>
+</body>
+
+<script src="script1.js"></script>
+</html>
