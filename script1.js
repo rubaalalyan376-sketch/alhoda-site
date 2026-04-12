@@ -69,10 +69,10 @@ let sessions = {
       ar:"خد نفس عميق.. إنت بخير وبأمان.🌸",
       en: "Take a deep breath... you are safe 🌸"
     },
-    price: "$5",
+    price: "$30",
     duration:{
-      ar:"30دقيقه",
-      en:"30 min"
+      ar:"1 ساعة",
+      en:"1 hour"
     } 
   },
   friend: {
@@ -84,10 +84,10 @@ let sessions = {
       ar:"أنا هنا عشان أسمعك 🤍",
       en:"I'm here to listen 🤍"
     },
-    price: "$7",
+    price: "$20",
     duration:{
       ar:"30دقيقه",
-      en:"45 min"
+      en:"30 min"
     } 
   },
   alone: {
@@ -99,10 +99,10 @@ let sessions = {
       ar:"إنت مش لوحدك 🌿",
       en:"You are not alone 🌿"
     },
-    price: "$6",
+    price: "$30",
     duration:{
-      ar:"30دقيقه",
-      en:"30 min"
+      ar:"1 ساعة",
+      en:"1 hour"
     }
   },
   calm: {
@@ -114,10 +114,10 @@ let sessions = {
       ar:"أنا هنا.. قولي اللي في بالك 😌",
       en:"I'm here tell me what in your mind😌"
     },
-    price: "$5",
+    price: "$40",
     duration:{
-      ar:"30دقيقه",
-      en:"30 min"
+      ar:"2 ساعة",
+      en:"2 hours"
     }
   },
   nana: {
@@ -129,10 +129,10 @@ let sessions = {
       ar:"إنت هون وبأمان.. خِدلك نفس، أنا معك وما رح خليك لحالك 💓",
       en:"You are safe here. Take a breath. You are not alone.💓"
     },
-    price: "$5",
+    price: "$25.9",
     duration:{
-      ar:"30دقيقه",
-      en:"30 min"
+      ar:"50 دقيقة",
+      en:"50 min"
     }  
   },
   haya: {
@@ -144,7 +144,7 @@ let sessions = {
       ar:"أنا جنبك وأسمعك.. احكي اللي بدك اياه وخد راحتك ع الآخر 💕",
       en:"I’m here to listen. You can talk freely.💕"
     },
-    price: "$5",
+    price: "$20",
     duration:{
       ar:"30دقيقه",
       en: "30 min"
