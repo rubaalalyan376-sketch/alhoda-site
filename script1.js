@@ -223,7 +223,7 @@ I want to book a session:
 💬 My message:
 ${messageInput}`;
 
-  let url = `https://wa.me/9627xxxxxxxx?text=${encodeURIComponent(message)}`;
+  let url = `https://wa.me/201014567740?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }
 
